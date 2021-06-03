@@ -8,7 +8,9 @@ For more introduction to Graph-MLP, see:
 
 TBD link
 
-![Graph Convolutional Networks](pipeline.png)
+![pipeline](pipeline.png)
+
+![results](result.png)
 
 ## Requirements
 
