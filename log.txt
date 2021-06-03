@@ -1,0 +1,6 @@
+tau,order,batch_size,hidden,alpha,lr,weight_decay,data,test_acc
+2.0,2,2000,256,10.0,0.001,0.005,cora,0.801
+tau,order,batch_size,hidden,alpha,lr,weight_decay,data,test_acc
+0.5,2,2000,256,1.0,0.001,0.005,citeseer,0.724
+tau,order,batch_size,hidden,alpha,lr,weight_decay,data,test_acc
+1.0,2,2000,256,100.0,0.1,0.005,pubmed,0.796
