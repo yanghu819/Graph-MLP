@@ -10,20 +10,20 @@ TBD link
 
 The pipeline of Graph-MLP:
 
-<img src="pipeline.png" width="40%" height="40%">
+<img src="pipeline.png" width="60%" height="60%">
 
 
 
 Main results:
 
-<img src="result.png" width="30%" height="30%">
+<img src="result.png" width="60%" height="60%">
 
 
  
 
 ## Requirements
 
-  * PyTorch **1.7**
+  * PyTorch 1.7
   * Python 3.7
 
 ## Usage
