@@ -8,9 +8,18 @@ For more introduction to Graph-MLP, see:
 
 TBD link
 
-![pipeline](pipeline.png)
+The pipeline of Graph-MLP:
 
-![results](result.png)
+<img src="pipeline.png" width="40%" height="40%">
+
+
+
+Main results:
+
+<img src="result.png" width="30%" height="30%">
+
+
+ 
 
 ## Requirements
 
