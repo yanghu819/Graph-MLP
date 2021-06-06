@@ -7,9 +7,12 @@ import numpy as np
 import torch
 import torch.nn.functional as F
 import torch.optim as optim
+from tqdm import tqdm
 
 from models import GMLP
 from utils import load_citation, accuracy, get_A_r
+import warnings
+warnings.filterwarnings('ignore')
 
 # Settings
 parser = argparse.ArgumentParser()
@@ -106,7 +109,8 @@ def test():
 
 best_accu = 0
 best_val_acc = 0
-for epoch in range(args.epochs):
+print('\n'+'training configs', args)
+for epoch in tqdm(range(args.epochs)):
     train()
     tmp_test_acc, val_acc = test()
     if val_acc > best_val_acc:

@@ -1,30 +1,19 @@
 
 
-# Graph-MLP: Node Classificationwithout Message Passing in Graph
+# Graph-MLP: Node Classification without Message Passing in Graph
 
-PyTorch implementation of Graph-MLP: Node Classification without Message Passing in Graph.
+PyTorch official implementation of *Graph-MLP: Node Classification without Message Passing in Graph*.
 
-For more introduction to Graph-MLP, see:
-
-TBD link
-
-The pipeline of Graph-MLP:
+For the detail, please refer to our paper: link (TBD)
 
 <img src="pipeline.png" width="60%" height="60%">
 
-
-
-Main results:
-
 <img src="result.png" width="60%" height="60%">
-
-
- 
 
 ## Requirements
 
-  * PyTorch 1.7
-  * Python 3.7
+  * PyTorch **1.7**
+  * Python **3.7**
 
 ## Usage
 
@@ -41,6 +30,8 @@ python3 train.py --lr=0.1 --weight_decay=5e-3 --data=pubmed --alpha=100 --hidden
 or
 
 ```bash run.sh```
+
+Please check our experimental results in log.txt. When new experiment is finished, the new result will also be appended to log.txt.
 
 ## Cite
 
