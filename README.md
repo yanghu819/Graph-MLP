@@ -4,7 +4,7 @@
 
 PyTorch official implementation of *Graph-MLP: Node Classification without Message Passing in Graph*.
 
-For the detail, please refer to our paper: link (TBD)
+For the detail, please refer to our paper: https://arxiv.org/abs/2106.04051 
 
 <img src="pipeline.png" width="60%" height="60%">
 
@@ -38,5 +38,12 @@ Please check our experimental results in log.txt. When new experiment is finishe
 Please cite our paper if you use this code in your own work:
 
 ```
-TBD
+@misc{hu2021graphmlp,
+      title={Graph-MLP: Node Classification without Message Passing in Graph}, 
+      author={Yang Hu and Haoxuan You and Zhecan Wang and Zhicheng Wang and Erjin Zhou and Yue Gao},
+      year={2021},
+      eprint={2106.04051},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```
